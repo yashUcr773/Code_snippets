@@ -24,7 +24,7 @@ torch.onnx.export(model, dummy_input, "model.onnx")
 # Launch Netron to visualize the model
 netron.start("model.onnx")
 
-# Downloads the model. 
+# Download the model. 
 # run on https://netron.app/
 
 !pip install torchview
